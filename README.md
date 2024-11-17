@@ -23,6 +23,8 @@ This is a Task Management App that allows users to create, update, delete, and t
 ### Authentication
 - `POST /register` - Register a new user.
 - `POST /login` - Login and retrieve an authentication token.
+- `POST /logout` - Logout user.
+- `GET /profile` - Fetch User details.
 
 ### Task Management
 - `GET /tasks` - List all tasks for the authenticated user.
